@@ -1,0 +1,10 @@
+services:
+  my_llm_lib_service:
+    build: .
+    container_name: llm_lib010_container
+    volumes:
+      - .:/app
+    # command: pytest test.py --maxfail=1 --disable-warnings -q
+    command: pytest test.py -v -s --disable-warnings
+
+
