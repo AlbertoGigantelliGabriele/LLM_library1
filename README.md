@@ -60,6 +60,7 @@ Dato che il numero di file e la complessita del codice è ridotta si è deciso d
 2. **Costruisci l'immagine Docker**
 
     ```
+    cd PycharmProjects\LLM_library2
     docker-compose build
     ```
 
