@@ -66,7 +66,7 @@ Dato che il numero di file e la complessita del codice è ridotta si è deciso d
 3. **Avvia i container**
    
     ```
-     docker-compose up -d
+     docker-compose up
     ```
    
 4. **In alternativa:**
