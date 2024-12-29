@@ -27,6 +27,12 @@ Assicurati di avere installato i seguenti strumenti:
    ```bash
      docker-compose up
    ```
+   
+4. **In alternativa:**
+   ```
+   docker-compose up --build
+   ```
+   
 Questo comando avvierà i servizi definiti in docker-compose.yml, quindi anche i test già definiti.
 
 Struttura del Progetto (v0.1.0)
@@ -49,7 +55,7 @@ Dato che il numero di file e la complessita del codice è ridotta si è deciso d
 1. **Checkout alla versione 0.2.0**
    
      ```
-      git checkout tags/0.2.0
+      git checkout v0.2.0
      ```
 2. **Costruisci l'immagine Docker**
 
@@ -62,11 +68,16 @@ Dato che il numero di file e la complessita del codice è ridotta si è deciso d
     ```
      docker-compose up -d
     ```
-
+   
+4. **In alternativa:**
+   ```
+   docker-compose up --build
+   ```
+   
 Struttura del Progetto (v0.2.0)
 
   ```bash
-  LLM_library1/
+  LLM_library1/PycharmProjects/LLM_library2
   ├── Dockerfile               # File per creare l'immagine Docker
   ├── docker-compose.yml       # Configurazione dei servizi Docker
   ├── logger.py                # Implementazione di logging personalizzato
